@@ -28,19 +28,16 @@ A secure and efficient password manager built to safeguard user credentials with
 ### Install the Dependencies
 
 ```bash
-cd client
 npm install
-cd ..
-cd server
+cd .\backend\
 npm install
 ```
 
 ### Run the Application
 
 ```bash
-cd server
-npm start
+cd .\backend\
+node .\backend\
 cd ..
-cd client
 npm run dev
 ```
